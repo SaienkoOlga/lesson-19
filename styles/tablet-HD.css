@@ -1,0 +1,51 @@
+@media screen and (min-width: 1024px) {
+  .header-top-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-logo-wrapper {
+    padding: 0;
+  }
+
+  .header-nav {
+    position: static;
+    justify-content: flex-end;
+    margin-top: 16px;
+  }
+
+  .experience .container {
+    display: flex;
+  }
+
+  .experience__list {
+    flex-direction: column;
+    padding-bottom: 0;
+    padding-right: 60px;
+    text-align: right;
+  }
+
+  .experience__descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0;
+    padding-left: 60px;
+    border-top: none;
+    border-left: 4px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .service__item {
+    --item-quantity: 3;
+  }
+
+  .team__card {
+    flex-direction: row;
+  }
+
+  .team-card__image {
+    flex-shrink: 0;
+    flex-basis: 400px;
+  }
+}

@@ -1,0 +1,122 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1720px;
+    padding: 0 60px;
+  }
+
+  .header {
+    padding-top: 60px;
+  }
+
+  .header .container {
+    padding: 0 60px;
+  }
+
+  .header-logo-wrapper {
+    padding: 30px 0;
+  }
+
+  .header__logo {
+    width: 130px;
+  }
+
+  .header-nav__open {
+    display: none;
+  }
+
+  .header-contacts {
+    justify-content: flex-start;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .header__address {
+    font-size: 16px;
+    color: #b3b3ba;
+    text-decoration: none;
+  }
+
+  .header__address,
+  .header__phone,
+  .header__social {
+    display: block;
+    position: relative;
+  }
+
+  .header__address:hover {
+    color: #fff;
+  }
+
+  .header__phone:hover {
+    color: #f0145a;
+  }
+
+  .header__social svg {
+    fill: #fff;
+  }
+
+  .header__social:hover svg {
+    fill: #f0145a;
+  }
+
+  .header__address::before,
+  .header__phone::before,
+  .header__social::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    right: calc(100% + 6px);
+    transform: translateY(-50%);
+    background-color: #e6e6f0;
+    border-radius: 50%;
+  }
+
+  .header-nav {
+    flex-direction: row;
+    gap: 15px;
+    position: absolute;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .header-nav__link {
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+  }
+
+  .header-nav__close {
+    display: none;
+  }
+
+  .header-slogan {
+    padding: 0;
+  }
+
+  .experience {
+    padding: 60px 0;
+  }
+
+  .experience__list {
+    align-items: flex-end;
+  }
+
+  .service-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+  }
+
+  .service__item {
+    --item-quantity: 2;
+  }
+
+  .team {
+    padding-top: 60px;
+  }
+}
