@@ -4,6 +4,7 @@
     padding: 0 60px;
   }
 
+  /* HEADER */
   .header {
     padding-top: 60px;
   }
@@ -98,6 +99,7 @@
     padding: 0;
   }
 
+  /* EXPERIENCE */
   .experience {
     padding: 60px 0;
   }
@@ -119,4 +121,47 @@
   .team {
     padding-top: 60px;
   }
+
+  /* CLIENTS */
+  .clients-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .clients-item {
+    flex-basis: calc(100% / 3);
+  }
+
+  /* PUBLICATIONS */
+  .publication-cards {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .publication__card {
+    flex-basis: calc(100% / 2 - 30px);
+    flex-grow: 1;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-basis: calc(100% / 2); */
+  }
+
+  .footer__coordinats {
+    flex-direction: row;
+    align-self: center;
+    flex-basis: calc(100% / 2);
+    flex-grow: 1;
+  }
+
+  .footer__contacts {
+    flex-direction: row;
+    gap: 26px;
+  }
+
+  .copyright {
+    order: 0;
 }
